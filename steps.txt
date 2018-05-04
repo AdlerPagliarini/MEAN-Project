@@ -1,0 +1,39 @@
+> npm init
+> npm install express body-parser ejs mongojs --save
+
+Criar arquivo server.js
+
+Criar pasta routes e arquivos
+
+Criar pasta view e arquivos
+
+-> node server (para executar)
+	http://localhost:3000/
+	http://localhost:3000/api/tasks	
+
+
+-> npm install -g nodemon
+	-> nodemon
+
+Acessa MLab e criar um banco de dados mongoDB
+https://youtu.be/PFP0oXNNveg?t=1101
+	MongoDB Deployments -> create new
+Depois de criar o banco de dados adicionar um usuário ao banco	
+	usr-mean -- $WwW$-[number]
+	mongo ds031632.mlab.com:31632/mean-app -u usr-mean -p $WwW$-[]
+
+Criar uma collection
+	adicionar um documento
+{
+	"title": "Study every day",
+	"isDone: false
+}
+npm install cors --save
+
+*******************************************
+Front-end
+-> npm install -g @angular/cli
+-> ng new cient
+
+-> npm install -g bower
+-> bower install bootstrap --save
