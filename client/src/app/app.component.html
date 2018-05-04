@@ -1,6 +1,11 @@
 <div class="container">
-  <h1>My task list</h1>
+  <h1>{{code}} My task list</h1>
+  <ul>
+      <li><a routerLink="/">Tasks</a></li>
+      <li><a routerLink="/fundamentals">Fundamentals</a></li>
+  </ul>
+  <router-outlet></router-outlet>
+
+  <h1>Show two times</h1>
   <tasks></tasks>
 </div>
-
-
