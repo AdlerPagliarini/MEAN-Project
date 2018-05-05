@@ -1,6 +1,8 @@
 import { FundamentalService } from './../../services/fundamental.service';
 import { Component, OnInit } from '@angular/core';
 
+import { Post } from '../../../model/Post';
+
 @Component({
   moduleId: module.id,
   selector: 'fundamentals',
@@ -68,11 +70,4 @@ export class FundamentalsComponent implements OnInit {
     street:string,
     city:string,
     state:string
-  }
-  
-  interface Post{
-    id: number,
-    title:string,
-    body:string,
-    userId:number
   }
